@@ -3,43 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jini Bhasi</title>
+  <title>Jini Bhasi | Home</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- ADD THIS for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
 </head>
 <body>
 
-  <header>
-    <h1>Jini Bhasi</h1>
-    <p class="subtitle">Personal Website</p>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="social">
+  <a href="https://instagram.com/jinibhasi/" aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a href="https://facebook.com/USERNAME" aria-label="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+  <a href="https://youtube.com/@jinibhasi" aria-label="YouTube">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+  <a href="https://pin.it/3kTgWhrcr" aria-label="Pinterest">
+    <i class="fa-brands fa-pinterest-p"></i>
+  </a>
+  <a href="https://twitter.com/USERNAME" aria-label="Twitter">
+    <i class="fa-brands fa-x-twitter"></i>
+  </a>
+</div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="travel.html">Travel</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="declutter.html">Declutter</a>
+        <a href="inspo.html">Inspo</a>
+        <a href="download.html">Download</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="search">
+        <input type="search" placeholder="Search here ..." />
+        <button type="button" aria-label="Search">🔍</button>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>
-        Jini Bhasi is a motivated individual with interests spanning academics,
-        professional growth, and personal development.
-      </p>
-    </section>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="logo-wrap">
+        <!-- Put your logo at assets/logo.png -->
+        <img src="jinilogo.jpeg" alt="Jini Bhasi logo" />
+      </div>
+      <p class="brand-script">Jini Bhasi</p>
+    </div>
+  </section>
 
-    <section>
-      <h2>Interests</h2>
-      <ul>
-        <li>Area of interest 1</li>
-        <li>Area of interest 2</li>
-        <li>Area of interest 3</li>
-      </ul>
-    </section>
+  <main class="page">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: jini@example.com</p>
-    </section>
+      <div class="card">
+        <div class="grid-2">
+          <div>
+            <p>
+             Hi, I’m glad you’re here 🤍
+Welcome to my little corner of the internet — a space where curiosity leads, creativity flows, and no passion is ever “too much.”
+
+I’m someone who wants to do anything and everything. I travel when my heart feels restless, paint when words fall short, dance when emotions need movement, and lose myself in art and craft whenever I crave stillness. I don’t believe in fitting into one box — I believe in collecting experiences, skills, and stories along the way.
+
+At different points in life, you’ll find me chasing sunsets in unfamiliar cities, experimenting with colours on a canvas, making something beautiful with my hands, or simply learning a new skill because it sparked joy. I am a learner by instinct, a creator by choice, and a dreamer at heart.
+
+This blog is a reflection of that spirit.
+
+Here, you’ll find pieces of my world — travel stories, creative explorations, art experiments, everyday inspiration, and thoughts from a life lived with curiosity. It’s not about being perfect or specialised; it’s about showing up fully, trying fearlessly, and embracing the many versions of ourselves.
+
+I started this blog to document my journey — not just across places, but across passions. Over time, it has grown into a space where I share experiences, ideas, and little sparks of inspiration that might encourage you to explore your own interests, try something new, or simply slow down and create.
+
+If you’re someone who loves many things, changes paths often, and believes that life doesn’t have to be linear — you’ll feel right at home here.
+
+So stay, explore, and wander with me.
+This is a space for stories, creativity, and everything in between ✨
+            </p>
+            <p>
+              This page belongs to Jini Bhasi.
+            </p>
+          </div>
+
+          <div class="placeholder" aria-label="Sidebar area (optional)">
+            <img src="jiniabout.jpeg" alt="Jini Bhasi about" class="about-img"/>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-
-  <footer>
-    <p>© 2026 Jini Bhasi</p>
-  </footer>
 
 </body>
 </html>
